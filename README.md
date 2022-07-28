@@ -24,8 +24,9 @@ Há links específicos para cada commit de finalização de uma aula.
 
 ### Lista de Aulas
 
-| Aulas | Descrição |
-| ----- | --------- |
+| Aulas                            | Descrição                                |
+| -------------------------------- | ---------------------------------------- |
+| [aula-1-8](../../commit/f149534) | Introdução: Criando os modelos - Parte 1 |
 
 ## Autor
 
