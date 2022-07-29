@@ -30,6 +30,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-1-9](../../commit/1c28616)  | Introdução: Criando os modelos - Parte 2 |
 | [aula-1-10](../../commit/faa58e0) | Introdução: DbSet                        |
 | [aula-1-11](../../commit/9469ece) | Introdução: Configurando o DataContext   |
+| [aula-1-12](../../commit/a6fedfd) | Introdução: Create                       |
 
 ## Autor
 
