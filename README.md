@@ -29,6 +29,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-1-8](../../commit/f149534)  | Introdução: Criando os modelos - Parte 1 |
 | [aula-1-9](../../commit/1c28616)  | Introdução: Criando os modelos - Parte 2 |
 | [aula-1-10](../../commit/faa58e0) | Introdução: DbSet                        |
+| [aula-1-11](../../commit/9469ece) | Introdução: Configurando o DataContext   |
 
 ## Autor
 
