@@ -3,5 +3,9 @@ using Blog.Models;
 
 using var context = new BlogDataContext();
 
-context.Tags.Add(new Tag { Name = "ASP.NET", Slug = "aspnet" });
+var tag = context.Tags.FirstOrDefault(tag => tag.Id == 2);
+tag.Name = ".NET";
+tag.Slug = "dotnet";
+
+context.Update(tag);
 context.SaveChanges();
