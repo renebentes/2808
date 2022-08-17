@@ -32,6 +32,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-1-11](../../commit/9469ece) | Introdução: Configurando o DataContext   |
 | [aula-1-12](../../commit/a6fedfd) | Introdução: Create                       |
 | [aula-1-13](../../commit/e864058) | Introdução: Update                       |
+| [aula-1-14](../../commit/81a6f09) | Introdução: Delete                       |
 
 ## Autor
 
