@@ -1,9 +1,15 @@
 using Blog.Data;
-using Blog.Models;
 
 using var context = new BlogDataContext();
 
-var tag = context.Tags.FirstOrDefault(tag => tag.Id == 2);
+var tags = context
+    .Tags
+    // Filtro antes da execução
+    .Where(it => it.Name.Contains(".NET"))
+    // Executa a query no banco
+    .ToList();
 
-context.Remove(tag);
-context.SaveChanges();
+foreach (var tag in tags)
+{
+    Console.WriteLine(tag.Name);
+}
