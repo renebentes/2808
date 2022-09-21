@@ -36,6 +36,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-1-15](../../commit/e24c278) | Introdução: ToList                       |
 | [aula-1-16](../../commit/a3504ca) | Introdução: AsNoTracking                 |
 | [aula-1-17](../../commit/91179f0) | Introdução: First, Single                |
+| [aula-2-5](../../commit/1dbd647)  | Operações Básicas: Table, Key e Identity |
 
 ## Autor
 
