@@ -38,6 +38,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-1-17](../../commit/91179f0) | Introdução: First, Single                       |
 | [aula-2-5](../../commit/1dbd647)  | Operações Básicas: Table, Key e Identity        |
 | [aula-2-6](../../commit/156920c)  | Operações Básicas: Required, MaxLength e Column |
+| [aula-2-7](../../commit/430bac0)  | Operações Básicas: Navigation Properties        |
 
 ## Autor
 
