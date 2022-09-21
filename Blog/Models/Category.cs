@@ -10,11 +10,11 @@ public class Category : ModelBase
     [MinLength(3)]
     [MaxLength(80)]
     [Column(nameof(Slug), TypeName = "VARCHAR")]
-    public string Slug { get; set; }
+    public string Slug { get; set; } = string.Empty;
 
     [Required]
     [MinLength(3)]
     [MaxLength(80)]
     [Column(nameof(Title), TypeName = "NVARCHAR")]
-    public string Title { get; set; }
+    public string Title { get; set; } = string.Empty;
 }
