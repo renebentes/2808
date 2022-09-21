@@ -3,14 +3,17 @@ using Microsoft.EntityFrameworkCore;
 
 using var context = new BlogDataContext();
 
-var tags = context
+var tag = context
     .Tags
-    // Desabilita metadados de traqueamento (referências entre os objetos)
-    // Usar somente em modo de leitura, nunca com operações de escrita
     .AsNoTracking()
-    .ToList();
+    // First() - Retorna primeiro elemento ou exception quando condição não
+    // satisfeita
+    // FirstOrDefault() - Retorna primeiro elemento ou null quando condição
+    // não satisfeita
+    // Single() - Retorna único elemento ou exceção quando condição não
+    // satisfeita ou mais de um
+    // SingleOrDefault() - Retorna único elemento ou null quando condição
+    // não satisfeita ou exception quando mais elements satisfazem a condição
+    .SingleOrDefault(it => it.Id == 3);
 
-foreach (var tag in tags)
-{
-    Console.WriteLine(tag.Name);
-}
+Console.WriteLine(tag?.Name);
