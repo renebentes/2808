@@ -24,19 +24,20 @@ Há links específicos para cada commit de finalização de uma aula.
 
 ### Lista de Aulas
 
-| Aulas                             | Descrição                                |
-| --------------------------------- | ---------------------------------------- |
-| [aula-1-8](../../commit/f149534)  | Introdução: Criando os modelos - Parte 1 |
-| [aula-1-9](../../commit/1c28616)  | Introdução: Criando os modelos - Parte 2 |
-| [aula-1-10](../../commit/faa58e0) | Introdução: DbSet                        |
-| [aula-1-11](../../commit/9469ece) | Introdução: Configurando o DataContext   |
-| [aula-1-12](../../commit/a6fedfd) | Introdução: Create                       |
-| [aula-1-13](../../commit/e864058) | Introdução: Update                       |
-| [aula-1-14](../../commit/81a6f09) | Introdução: Delete                       |
-| [aula-1-15](../../commit/e24c278) | Introdução: ToList                       |
-| [aula-1-16](../../commit/a3504ca) | Introdução: AsNoTracking                 |
-| [aula-1-17](../../commit/91179f0) | Introdução: First, Single                |
-| [aula-2-5](../../commit/1dbd647)  | Operações Básicas: Table, Key e Identity |
+| Aulas                             | Descrição                                       |
+| --------------------------------- | ----------------------------------------------- |
+| [aula-1-8](../../commit/f149534)  | Introdução: Criando os modelos - Parte 1        |
+| [aula-1-9](../../commit/1c28616)  | Introdução: Criando os modelos - Parte 2        |
+| [aula-1-10](../../commit/faa58e0) | Introdução: DbSet                               |
+| [aula-1-11](../../commit/9469ece) | Introdução: Configurando o DataContext          |
+| [aula-1-12](../../commit/a6fedfd) | Introdução: Create                              |
+| [aula-1-13](../../commit/e864058) | Introdução: Update                              |
+| [aula-1-14](../../commit/81a6f09) | Introdução: Delete                              |
+| [aula-1-15](../../commit/e24c278) | Introdução: ToList                              |
+| [aula-1-16](../../commit/a3504ca) | Introdução: AsNoTracking                        |
+| [aula-1-17](../../commit/91179f0) | Introdução: First, Single                       |
+| [aula-2-5](../../commit/1dbd647)  | Operações Básicas: Table, Key e Identity        |
+| [aula-2-6](../../commit/156920c)  | Operações Básicas: Required, MaxLength e Column |
 
 ## Autor
 
