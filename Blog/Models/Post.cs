@@ -1,20 +1,15 @@
-using System.ComponentModel.DataAnnotations.Schema;
-
 namespace Blog.Models;
 
-[Table(nameof(Post))]
 public class Post : ModelBase
 {
     public User Author { get; set; } = new();
 
-    [ForeignKey(nameof(AuthorId))]
     public int AuthorId { get; set; }
 
     public string Body { get; set; } = string.Empty;
 
     public Category Category { get; set; } = new();
 
-    [ForeignKey(nameof(CategoryId))]
     public int CategoryId { get; set; }
 
     public DateTime CreateDate { get; set; }
