@@ -42,6 +42,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-2-8](../../commit/68d485d)  | Operações Básicas: Tabalhando com Subconjuntos  |
 | [aula-2-9](../../commit/d73eb1e)  | Operações Básicas: Include                      |
 | [aula-2-10](../../commit/2459145) | Operações Básicas: Log                          |
+| [aula-2-11](../../commit/3ead3ba) | Operações Básicas: Alterando um subconjunto     |
 
 ## Autor
 
