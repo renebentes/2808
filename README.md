@@ -46,6 +46,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-3-1](../../commit/4e2d2a4)  | Mapeamento: Introdução                          |
 | [aula-3-2](../../commit/299a52d)  | Mapeamento: Iniciando o mapeamento              |
 | [aula-3-3](../../commit/45eb6d7)  | Mapeamento: Chave Primária e Identity           |
+| [aula-3-4](../../commit/5fb8bb4)  | Mapeamento: Mapeando propriedades               |
 
 ## Autor
 
