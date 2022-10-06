@@ -44,6 +44,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-2-10](../../commit/2459145) | Operações Básicas: Log                          |
 | [aula-2-11](../../commit/3ead3ba) | Operações Básicas: Alterando um subconjunto     |
 | [aula-3-1](../../commit/4e2d2a4)  | Mapeamento: Introdução                          |
+| [aula-3-2](../../commit/299a52d)  | Mapeamento: Iniciando o mapeamento              |
 
 ## Autor
 
