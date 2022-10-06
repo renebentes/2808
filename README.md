@@ -41,6 +41,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-2-7](../../commit/430bac0)  | Operações Básicas: Navigation Properties        |
 | [aula-2-8](../../commit/68d485d)  | Operações Básicas: Tabalhando com Subconjuntos  |
 | [aula-2-9](../../commit/d73eb1e)  | Operações Básicas: Include                      |
+| [aula-2-10](../../commit/2459145) | Operações Básicas: Log                          |
 
 ## Autor
 
