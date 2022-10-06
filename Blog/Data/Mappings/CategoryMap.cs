@@ -28,5 +28,9 @@ public class CategoryMap : IEntityTypeConfiguration<Category>
             .IsRequired()
             .HasColumnType("VARCHAR")
             .HasMaxLength(80);
+
+        // Índices
+        builder.HasIndex(c => c.Slug)
+            .IsUnique();
     }
 }
