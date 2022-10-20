@@ -30,7 +30,7 @@ public class CategoryMap : IEntityTypeConfiguration<Category>
             .HasMaxLength(80);
 
         // Índices
-        builder.HasIndex(c => c.Slug)
+        builder.HasIndex(c => c.Slug, "IX_Category_Slug")
             .IsUnique();
     }
 }
