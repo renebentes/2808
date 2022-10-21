@@ -35,6 +35,19 @@ public class PostMap : IEntityTypeConfiguration<Post>
             .HasColumnType("VARCHAR")
             .HasMaxLength(80);
 
+        builder.Property(it => it.CreateDate)
+            .IsRequired()
+            .HasColumnType("SMALLDATETIME")
+            .HasDefaultValueSql("GETDATE()");
+
+        // Para definir valor default via .NET
+        //.HasDefaultValue(DateTime.Now.ToUniversalTime())
+
+        builder.Property(it => it.LastUpdateDate)
+            .IsRequired()
+            .HasColumnType("SMALLDATETIME")
+            .HasDefaultValueSql("GETDATE()");
+
         builder.HasIndex(it => it.Slug, "IX_Post_Slug")
             .IsUnique();
     }
