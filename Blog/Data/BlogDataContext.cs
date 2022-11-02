@@ -1,3 +1,4 @@
+using Blog.Data.Mappings;
 using Blog.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,5 +20,14 @@ public class BlogDataContext : DbContext
     {
         options.UseSqlServer("Server=localhost,1433;Database=Blog;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False;TrustServerCertificate=True;");
         options.LogTo(Console.WriteLine);
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfiguration(new CategoryMap());
+        modelBuilder.ApplyConfiguration(new PostMap());
+        modelBuilder.ApplyConfiguration(new RoleMap());
+        modelBuilder.ApplyConfiguration(new TagMap());
+        modelBuilder.ApplyConfiguration(new UserMap());
     }
 }
