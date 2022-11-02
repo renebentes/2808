@@ -14,5 +14,7 @@ public class User : ModelBase
 
     public IList<Post> Posts { get; set; } = new List<Post>();
 
+    public IList<Role> Roles { get; set; } = new List<Role>();
+
     public string Slug { get; set; } = string.Empty;
 }
