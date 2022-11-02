@@ -50,6 +50,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-3-5](../../commit/0781783)  | Mapeamento: Índices                             |
 | [aula-3-6](../../commit/7e25787)  | Mapeamento: Iniciando o mapeamento de user      |
 | [aula-3-7](../../commit/cab21ba)  | Mapeamento: Dafault Values                      |
+| [aula-3-8](../../commit/d76b905)  | Mapeamento: Relcaionamento um para muitos       |
 
 ## Autor
 
