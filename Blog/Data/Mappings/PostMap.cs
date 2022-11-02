@@ -66,15 +66,15 @@ public class PostMap : IEntityTypeConfiguration<Post>
             .WithMany(it => it.Posts)
             .UsingEntity<IDictionary<string, object>>(
                 "PostTag",
-                post => post.HasOne<Tag>()
+                tag => tag.HasOne<Tag>()
                             .WithMany()
-                            .HasForeignKey("PostId")
-                            .HasConstraintName("FK_PostTag_PostId")
+                            .HasForeignKey("TagId")
+                            .HasConstraintName("FK_PostTag_TagId")
                             .OnDelete(DeleteBehavior.Cascade),
-                tag => tag.HasOne<Post>()
+                post => post.HasOne<Post>()
                           .WithMany()
-                          .HasForeignKey("TagId")
-                          .HasConstraintName("FK_PostTag_TagId")
+                          .HasForeignKey("PostId")
+                          .HasConstraintName("FK_PostTag_PostId")
                           .OnDelete(DeleteBehavior.Cascade));
     }
 }
