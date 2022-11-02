@@ -51,7 +51,7 @@ Há links específicos para cada commit de finalização de uma aula.
 | [aula-3-6](../../commit/7e25787)  | Mapeamento: Iniciando o mapeamento de user      |
 | [aula-3-7](../../commit/cab21ba)  | Mapeamento: Dafault Values                      |
 | [aula-3-8](../../commit/d76b905)  | Mapeamento: Relcaionamento um para muitos       |
-| [aula-3-9](../../commit/903a3eb)  | Mapeamento: Relacionamento muitos para muitos   |
+| [aula-3-9](../../commit/38f7b79)  | Mapeamento: Relacionamento muitos para muitos   |
 
 ## Autor
 
