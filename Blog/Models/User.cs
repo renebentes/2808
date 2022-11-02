@@ -12,5 +12,7 @@ public class User : ModelBase
 
     public string PasswordHash { get; set; } = string.Empty;
 
+    public IList<Post> Posts { get; set; } = new List<Post>();
+
     public string Slug { get; set; } = string.Empty;
 }
