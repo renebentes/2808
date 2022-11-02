@@ -20,5 +20,7 @@ public class Post : ModelBase
 
     public string Summary { get; set; } = string.Empty;
 
+    public IList<Tag> Tags { get; set; } = new List<Tag>();
+
     public string Title { get; set; } = string.Empty;
 }
