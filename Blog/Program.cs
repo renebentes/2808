@@ -1,16 +1,19 @@
 using Blog.Data;
-using Microsoft.EntityFrameworkCore;
+using Blog.Models;
 
 using var context = new BlogDataContext();
 
-var post = context
-    .Posts
-    .Include(p => p.Author)
-    .Include(p => p.Category)
-    .OrderByDescending(p => p.LastUpdateDate)
-    .FirstOrDefault();
+var user = context.Users.FirstOrDefault();
+var post = new Post
+{
+    Author = user,
+    Title = "Novo post",
+    Summary = "Novo post sobre ASP.NET",
+    Body = "Post sobre ASP.NET",
+    Category = new Category { Title = "Backend", Slug = "backend" },
+    CreateDate = DateTime.UtcNow,
+    Slug = "novo-post"
+};
 
-post.Author.Name = "Teste";
-
-context.Update(post);
+context.Posts.Add(post);
 context.SaveChanges();
