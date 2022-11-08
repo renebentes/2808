@@ -64,7 +64,7 @@ public class PostMap : IEntityTypeConfiguration<Post>
 
         builder.HasMany(it => it.Tags)
             .WithMany(it => it.Posts)
-            .UsingEntity<IDictionary<string, object>>(
+            .UsingEntity<Dictionary<string, object>>(
                 "PostTag",
                 tag => tag.HasOne<Tag>()
                             .WithMany()

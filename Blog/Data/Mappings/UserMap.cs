@@ -50,7 +50,7 @@ public class UserMap : IEntityTypeConfiguration<User>
 
         builder.HasMany(it => it.Roles)
             .WithMany(it => it.Users)
-            .UsingEntity<IDictionary<string, object>>(
+            .UsingEntity<Dictionary<string, object>>(
                 "UserRole",
                 role => role.HasOne<Role>()
                             .WithMany()
